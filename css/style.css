@@ -409,8 +409,8 @@ main{
         font-size: 15pt;
         text-shadow: -1px 1px 0 #222, -2px 2px rgb(126, 126, 126);
         position: absolute;
-        bottom: -1%;
-        left: 34%;
+        bottom: 0;
+        left: 30%;
     }
     
 }
