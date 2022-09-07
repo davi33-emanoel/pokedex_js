@@ -193,7 +193,7 @@ main{
     text-shadow: -2px 1px #000;
 }
 .moves::-webkit-scrollbar-thumb {
-    border-radius: 5px;
+    border-radius: 25px;
     background-color: rgb(241, 45, 94);
  }
  .moves::-webkit-scrollbar {
