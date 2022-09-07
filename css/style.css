@@ -11,12 +11,9 @@ body{
     background: linear-gradient(to bottom, #6ab7f5, #fff);
     min-height:100vh;
 }
-.container{
-    overflow-y: hidden;
-}
 main{
     display: inline-block;
-    margin-top: 2%;
+    margin-top: -2.5%;
     padding: 15px;
     position: relative;
 }
@@ -215,6 +212,9 @@ main{
     font-weight: bold;
     font-size: 15pt;
     text-shadow: -1px 1px 0 #222, -2px 2px rgb(126, 126, 126);
+    position: absolute;
+    bottom: 0;
+    left: 40%;
 }
 @media  (min-width:320px) and (max-width:880px){
 
