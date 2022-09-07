@@ -167,6 +167,7 @@ main{
     background: none;
     font-size: 1em;
     width: 27.8%;
+    height: 16%;
     border: none;
     letter-spacing: 2px;
     font-family: 'Oxanium', cursive;
@@ -175,6 +176,7 @@ main{
     text-shadow: -2px 1px #000;
     resize: none;
     word-break:break-word;
+    overflow-y: scroll;
 }
 .weight_title{
     position: absolute;
