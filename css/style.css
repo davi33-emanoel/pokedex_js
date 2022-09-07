@@ -213,7 +213,7 @@ main{
     font-size: 15pt;
     text-shadow: -1px 1px 0 #222, -2px 2px rgb(126, 126, 126);
     position: absolute;
-    bottom: 0;
+    bottom: 20%;
     left: 40%;
 }
 @media  (min-width:320px) and (max-width:880px){
