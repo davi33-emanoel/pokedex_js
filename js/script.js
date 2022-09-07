@@ -28,7 +28,7 @@ const renderPokemon = async(pokemon)=>{
         pokemonName.innerHTML = data.name;
         pokemonNumber.innerHTML = data.id;
         stats.innerHTML = data.types.map(type => type.type.name);
-        stats2.innerHTML = data.stats.map(stat => `${stat.stat.name}: ${stat.base_stat}`);
+        stats2.innerHTML = data.stats.map(stat => `${stat.stat.name}:${stat.base_stat}`);
         moves.innerHTML = data.moves.map(move => `${move.move.name}`);
         weight.innerHTML = data.weight
         exp.innerHTML = data['base_experience']
