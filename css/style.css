@@ -212,6 +212,9 @@ main{
     text-shadow: -1px 1px 0 #222, -2px 2px rgb(126, 126, 126);
 }
 @media  (min-width:320px) and (max-width:880px){
+    body{
+        overflow: hidden;
+    }
     .pokedex{
         display: none;
     }
