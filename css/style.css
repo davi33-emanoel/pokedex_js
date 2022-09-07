@@ -5,12 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Oxanium', cursive;
-    overflow: hidden;
 }
 body{
     text-align: center;
     background: linear-gradient(to bottom, #6ab7f5, #fff);
     min-height:100vh;
+    overflow: hidden;
 }
 main{
     display: inline-block;
@@ -195,7 +195,7 @@ main{
     background-color: rgb(241, 45, 94);
  }
  .moves::-webkit-scrollbar {
-    width: 12px;
+    width: 15px;
     background-color: none;
 }
 .stats2::-webkit-scrollbar-thumb {
@@ -359,6 +359,7 @@ main{
         text-shadow: -2px 1px #000;
         resize: none;
         word-break:break-word;
+        overflow-y: scroll;
     }
     .exp{
         position: absolute;
