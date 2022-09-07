@@ -12,7 +12,7 @@ body{
     min-height:100vh;
 }
 .container{
-    overflow: hidden;
+    overflow-y: hidden;
 }
 main{
     display: inline-block;
